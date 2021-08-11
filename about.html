@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <!-- Basic -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">   
+   
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+     <!-- Site Metas -->
+    <title>About Us</title>
+    <link rel="shortcut icon" type="image" href="shortcut-logo.png">  
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Site Icons -->
+    <link rel="shortcut icon" href="favicon.ico" type="x-icon" />
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <!-- Site CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- ALL VERSION CSS -->
+    <link rel="stylesheet" href="versions.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="responsive.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="custom.css">
+
+    <!-- Modernizer for Portfolio -->
+    <script src="modernizer.js"></script>
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<body class="host_version"> 
+
+	<!-- Modal -->
+	<div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+          <div class="modal-content">
+              <div class="modal-header tit-up">
+                  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                  <h4 class="modal-title">Psychologist Login</h4>
+              </div>
+              <div class="modal-body customer-box">
+                  <!-- Nav tabs -->
+                  <ul class="nav nav-tabs">
+                      <li><a class="active" href="#Login" data-toggle="tab">Login</a></li>
+                      <!-- <li><a href="#Registration" data-toggle="tab">Register</a></li> -->
+                  </ul>
+                  <!-- Tab panes -->
+                  <div class="tab-content">
+                      <div class="tab-pane active" id="Login">
+                          <form role="form" class="form-horizontal">
+                              <div class="form-group">
+                                  <div class="col-sm-12">
+                                      <input class="form-control" id="email1" placeholder="Your Name" type="text">
+                                  </div>
+                              </div>
+                              <div class="form-group">
+                                  <div class="col-sm-12">
+                                      <input class="form-control" id="exampleInputPassword1" placeholder="Your Password" type="password">
+                                  </div>
+                              </div>
+                              <div class="row">
+                                  <div class="col-sm-10">
+                                      <button type="submit" class="btn btn-light btn-radius btn-brd grd1">
+                                          Submit
+                                      </button>
+                                      <a class="for-pwd" href="#">Forgot your password? Contact the Manager.</a>
+                                  </div>
+                              </div>
+                          </form>
+                      </div>
+                      <div class="tab-pane" id="Registration">
+                          <form role="form" class="form-horizontal">
+                              <div class="form-group">
+                                  <div class="col-sm-12">
+                                      <input class="form-control" placeholder="Your Name" type="text">
+                                  </div>
+                              </div>
+                              <div class="form-group">
+                                  <div class="col-sm-12">
+                                      <input class="form-control" id="email" placeholder="Your Email" type="email">
+                                  </div>
+                              </div>
+                              <div class="form-group">
+                                  <div class="col-sm-12">
+                                      <input class="form-control" id="mobile" placeholder="Mobile Number" type="email">
+                                  </div>
+                              </div>
+                              <div class="form-group">
+                                  <div class="col-sm-12">
+                                      <input class="form-control" id="password" placeholder="Your Password" type="password">
+                                  </div>
+                              </div>
+                              <div class="row">							
+                                  <div class="col-sm-10">
+                                      <button type="button" class="btn btn-light btn-radius btn-brd grd1">
+                                          Save &amp; Continue
+                                      </button>
+                                      <button type="button" class="btn btn-light btn-radius btn-brd grd1">
+                                          Cancel</button>
+                                  </div>
+                              </div>
+                          </form>
+                      </div>
+                  </div>
+              </div>
+          </div>
+        </div>
+      </div>
+  
+      <!-- LOADER -->
+      <div id="preloader">
+          <div class="loader-container">
+              <div class="progress-br float shadow">
+                  <div class="progress__item"></div>
+              </div>
+          </div>
+      </div>
+      <!-- END LOADER -->	
+  
+	<!-- Start header -->
+	<header class="top-navbar">
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="index.html">
+					<img src="logo.png" alt="" />
+				</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbars-host" aria-controls="navbars-rs-food" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbars-host">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+						<li class="nav-item active"><a class="nav-link" href="about.html">About Us</a></li>
+						<li class="nav-item"><a class="nav-link" href="features.html">Services </a></li>
+						<li class="nav-item"><a class="nav-link" href="pricing.html">Pricing</a></li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="dropdown-a" data-toggle="dropdown">More</a>
+							<div class="dropdown-menu" aria-labelledby="dropdown-a">
+								<a class="dropdown-item" href="WhatIsTheProcedures.html">What is the procedure?</a>
+								<a class="dropdown-item" href="EventsCalendar.html">Events Calender</a>
+							</div>
+						</li>
+						<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+					</ul>
+					<ul class="nav navbar-nav navbar-right">
+                        <li><a class="hover-btn-new log" href="#" data-toggle="modal" data-target="#login"><span>Psychologist Login</span></a></li>
+                    </ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<!-- End header -->
+	
+	<div class="all-title-box">
+		<div class="container text-center">
+			<h1>About Us<span class="m_1">Come to tell you about ourselves</span></h1>
+		</div>
+	</div>
+	
+    <div id="overviews" class="section lb">
+        <div class="container">
+            <div class="section-title row text-center">
+                <div class="col-md-8 offset-md-2">
+                    <h3>About Us</h3>
+                    <p class="lead">We are so glad to know that you need to read about us!</p>
+                </div>
+            </div><!-- end title -->
+        
+            <div class="row align-items-center">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                    <div class="message-box">
+                        <h4>2018 BEST WEB HOSTING COMPANY</h4>
+                        <h2>The Logo Explained:</h2>
+                        <p> <strong>eu: In Greek, ‘eu’ means well <br>
+                            noia: means mind <br>
+                            Eunoia means a Well Mind (yoo-noy-uh) <br>
+                            The semicolon in our butterfly is a symbol of Mental Health Continuity <br>
+                            Butterflies represent transformation, change, hope and life.</strong>
+                        </p>
+
+                        <p> </p>
+                    </div><!-- end messagebox -->
+                </div><!-- end col -->
+				
+				<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                    <div class="post-media wow fadeIn">
+                        <img src="about_02.jpg" alt="" class="img-fluid img-rounded">
+                    </div><!-- end media -->
+                </div><!-- end col -->
+			</div>
+
+            <div class="section-title row text-center">
+                <div class="col-md-8 offset-md-2">
+                    <h3>Our Team:</h3>
+                    <p class="lead">Our therapists have a minimum of a master's degrees and are licensed practitioners by the Ministry of Health, Oman.</p>
+                </div>
+            </div><!-- end title -->
+
+			<div class="row align-items-center">
+				<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                    <div class="post-media wow fadeIn">
+                        <img src="about_03.jpg" alt="" class="img-fluid img-rounded">
+                    </div><!-- end media -->
+                </div><!-- end col -->
+				
+				<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                    <div class="message-box">
+                        <h2>Co-Founders:</h2>
+                        <strong><p>Dr Alya Sultan, CPsychol, DClinPsych <br>
+                            Chartered Clinical Psychologist</p></strong>
+
+                        <p> Dr. Alya Sultan is the first Omani Clinical Psychologist with Professional Doctoral Training.  She provides psychotherapy and assessment for adults seeking treatment for a range of mental health concerns. She is also an accredited clinical supervisor and trainer in Mental Health.</p>
+                    </div><!-- end messagebox -->
+                </div><!-- end col -->
+				<div class="col-lg-12">
+                    <div class="customwidget text-center">
+                        <p>Prior to joining private practice, Dr Alya was working at the Al Masarra and Ibn-Sina hospitals, Ministry of Health, Oman, where she delivered psychotherapy and cognitive assessment for clients presenting with poor health conditions, limited literacy, or strong reservations regarding psychological services. In addition to her clinical role, she had administrative and teaching roles where she supervised staff, developed programs, and evaluated psychological services at the Ministry of Health, Oman.</p>
+                        <p>Dr Alya received her Professional Doctorate in Clinical Psychology from the University of Queensland, Australia and is a Chartered Member of the British Psychological Society. Through her doctoral training, she worked in a variety of settings including Tertiary Care Hospitals, Private Practice, and Child and Family Support Centers. Dr Alya is a Fullbright Alumni. Her Bachelor’s and master’s degrees are both from the USA.</p>
+                        <p>Dr. Alya’s therapeutic style was shaped by a background emphasizing cognitive behavioral interventions focusing on the development of skills to improve psychosocial well-being.  She works with clients to understand their experiences and perspectives, while helping to guide them to their best match in evidence-based therapeutic techniques, including Cognitive-Behavioral Therapy (CBT), Acceptance and Commitment Therapy (ACT), Dialectical Behavior Therapy (DBT), Schema Therapy, Eye Movement and Desensitization Reprocessing (EMDR), Mindfulness-based, and Motivational Interviewing modalities. Dr Alya is also a certified provider of the “Triple P International” parenting program which focuses on practical strategies to help parents manage their children’s emotional and behavioral challenges.</p>
+                        <p>She speaks Arabic and English fluently and provides services in both languages.</p>
+                        <!-- end list -->
+                    <!-- <a href="#" class="hover-btn-new"><span>Hosting Packages</span></a> -->
+                    </div>
+                </div>
+            </div><!-- end row -->
+
+            <div class="row align-items-center">
+				<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                    <div class="post-media wow fadeIn">
+                        <img src="about_04.jpg" alt="" class="img-fluid img-rounded">
+                    </div><!-- end media -->
+                </div><!-- end col -->
+				
+				<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                    <div class="message-box">
+                        <h2>Co-Founders:</h2>
+                        <strong><p>Rajaa Sultan, MSc, MBPsS <br>
+                            Child and Adolescent Therapist</p></strong>
+
+                        <p> Rajaa is a child and adolescent therapist working with children, adolescents and their families on a range of mental health difficulties. She is also a certified parent trainer for “Triple P International” and “Webster Stratton Incredible Years” programs.</p>
+                    </div><!-- end messagebox -->
+                </div><!-- end col -->
+				<div class="col-lg-12">
+                    <div class="customwidget text-center">
+                        <p>Rajaa received her MSc in child and adolescent mental health from Kings College, London. During her clinical placement she worked in child and family services with interventions focusing on cognitive behavioural therapies (CBT), Mindfulness based cognitive therapy (MBCT), and systemic therapies (family therapy). She also provided services as part of a multidisciplinary team working with child sexual abuse (CSA) and has experience in trauma focused cognitive behavioural therapy (TF-CBT) for children with Post traumatic Stress Disorders (PTSD).</p>
+                        <p>Rajaa obtained her Bachelor’s and postgraduate diploma degrees in Psychology from Monash University, Australia where she gained her training in educational settings providing cognitive assessments for primary school children and aiding in treatment planning for children with scholastic and social difficulties.</p>
+                        <p>Rajaa’s work experience includes both the private and public sector. She was appointed in  Al-Masarra/ibn-Sina hospital, Ministry of health for 10 years, after which she joined the private sector in Al Harub Medical Centre for one year.  During her time in Al Masarra hospital, she provided psychotherapy for children, adolescents and adults with emotional struggles as well as cognitive assessments for children with scholastic difficulties.</p>
+                        <p>She speaks Arabic and English fluently and provides services in both languages.</p>
+                        <!-- end list -->
+                    <!-- <a href="#" class="hover-btn-new"><span>Hosting Packages</span></a> -->
+                    </div>
+                </div>
+            </div><!-- end row -->
+
+            <div class="row align-items-center">
+				<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                    <div class="post-media wow fadeIn">
+                        <img src="about_05.jpg" alt="" class="img-fluid img-rounded">
+                    </div><!-- end media -->
+                </div><!-- end col -->
+				
+				<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                    <div class="message-box">
+                        <h2>Affiliates:</h2>
+                        <strong><p>Qutouf Al Kindi, MSc, MBPsS<br>
+                            Assistant Psychologist (Neuropsychology)</p></strong>
+
+                        <p> Qutouf is passionate about the human brain and its crucial translations of neural activity into actions and behaviors. She is an enthusiastic and ambitious individual who is willing to invest energy and effort to support and encourage individuals struggling with mental and neurological conditions.</p>
+                    </div><!-- end messagebox -->
+                </div><!-- end col -->
+				<div class="col-lg-12">
+                    <div class="customwidget text-center">
+                        <p>She is registered with the BPS and has completed her studies at prestigious universities in the United Kingdom. She obtained her BSc in Psychology from the University of Sheffield and then completed her Masters in Neuropsychology at the University of Bristol.</p>
+                        <p>The experience that Qutouf gained through her passion for scientific research and volunteering abroad enabled her to attain a plethora of transferable skills that are essential for clinical practice. Qutouf has previously worked and volunteered at SQUH, the University of Sheffield, SLV. Global, Recolo Ltd-UK in addition to other NPO locally and Globally.</p>
+                        <p>She is known for her empathetic personality and capability of establishing strong therapeutic and professional relationships with her clients. Qutouf has helped many clients overcome and manage their psychological distress and chronic conditions using different techniques including Cognitive Behavioral Therapy (CBT), Interpersonal and Social Rhythm Therapy (IPSRT) and support groups. Furthermore, she is trained in and administers psychological and neuropsychological assessments for children, adults and the elderly.</p>
+                        <p>She speaks Arabic and English fluently and provides services in both languages.</p>
+                        <!-- end list -->
+                    <!-- <a href="#" class="hover-btn-new"><span>Hosting Packages</span></a> -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="row align-items-center">
+				<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                    <div class="post-media wow fadeIn">
+                        <img src="about_06.jpg" alt="" class="img-fluid img-rounded">
+                    </div><!-- end media -->
+                </div><!-- end col -->
+				
+				<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                    <div class="message-box">
+                        <h2>Affiliates:</h2>
+                       <strong> <p>Sara Hassan Al Lawati, MSc, MBPsS<br>
+                            Developmental Therapist</p> </strong>
+
+                        <p> After graduating with a Bachelor degree in psychology, Sara pursued her interest in child psychology and graduated from University College London with an MSc in Psychoanalysis and Developmental Psychology. Sara also holds a Certificate of Competence in Educational Testing which allows her to administer, select and evaluate a range of educational tests and assessments.</p>
+                    </div><!-- end messagebox -->
+                </div><!-- end col -->
+				<div class="col-lg-12">
+                    <div class="customwidget text-center">
+                        <p>At Sultan Qaboos University Hospital, she was trained at the Department of Behavioural Medicine, mainly with patients experiencing anxiety, depression and phobias. She applied CBT and mindfulness techniques.  This experience was followed by her work at Montessori Oman where Sara focused on children and adolescents as a Developmental Therapist.</p>
+                        <p>The main role she undertook was to support children with adjustment issues and behaviour management. By providing an enriched environ  ment with activities and individualized plans to assist children’s free expression of thoughts, feelings and anxieties; Sara worked alongside the parents to create a more fluid development, incorporating play into therapy, to use the child’s language to communicate effortlessly.</p>
+                        <p>Her approach includes designing, modifying and implementing therapeutic interventions for the child and family to promote functional independence, acquisition of skills, and full participation at home and in community. The focus of the practice is on assisting children’s holistic development, i.e. cognitive, language and communication, social-emotional skills and behaviour skills.</p>
+                        <p>She speaks Arabic and English fluently and provides services in both languages.</p>
+                        <!-- end list -->
+                    <!-- <a href="#" class="hover-btn-new"><span>Hosting Packages</span></a> -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="row align-items-center">
+				<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                    <div class="post-media wow fadeIn">
+                        <img src="about_07.jpg" alt="" class="img-fluid img-rounded">
+                    </div><!-- end media -->
+                </div><!-- end col -->
+				
+				<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                    <div class="message-box">
+                        <h2>Affiliates:</h2>
+                       <strong> <p>Haifa Al Shanfari, MSc<br>
+                        Play Therapist</p> </strong>
+
+                        <p> Haifa received a Masters of Arts in Play Therapy from Roehampton University in London as well as a Masters in Sociology and Social Work from Sultan Qaboos University. With over 20 years of experience working with families and children, Haifaa provides tailored and comprehensive emotional and behavioral therapy to clients. As a play therapist, she believes in children’s self-healing abilities and can harness this ability to facilitate the healing process.</p>
+                    </div><!-- end messagebox -->
+                </div><!-- end col -->
+				<div class="col-lg-12">
+                    <div class="customwidget text-center">
+                        <p>Haifaa has contributed to many workshops and presentations in schools, governmental entities, and conferences. Her most recent and notable contribution is her presentation in the “The Diversity Scoping Events for Play & Art Therapy” conference held in London in 2018.</p>
+                        <p>Haifaa started her career as a school social worker and has progressed to become a supervisor overseeing the development of social workers in the Ministry of Education. In addition, she was the leader of a specialized team providing therapeutic services to school students as part of a collaborative effort between the Ministry of Health, Ministry of Education, and the Ministry of Social Development. During her career journey, she felt enchanted by how psychotherapy can heal children which led her to pursue a master's degree in Play Therapy.</p>
+                        <p>Haifaa has decided to retire from her position in the Ministry of Education in 2020 to free herself for her passion, play therapy.</p>
+                        <p>She speaks Arabic and English fluently and provides services in both languages.</p>
+                        <!-- end list -->
+                    <!-- <a href="#" class="hover-btn-new"><span>Hosting Packages</span></a> -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="row align-items-center">
+				<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                    <div class="post-media wow fadeIn">
+                        <img src="about_08.jpg" alt="" class="img-fluid img-rounded">
+                    </div><!-- end media -->
+                </div><!-- end col -->
+				
+				<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                    <div class="message-box">
+                        <h2>Affiliates:</h2>
+                       <strong> <p>Ibtisam Al Busaidy, MSc<br>
+                        Master Practitioner in Cognitive Behavioral Therapy (CBT)</p> </strong>
+
+                        <p>Ibtisam Al Busaidi is currently the Senior Student Counselor and Director of Student Affairs at Modern College of Business and Science. Ibtisam, provides guidance to students on academic matters, and counseling for students with family, personal, behavioral, and mental health concerns. She has strong listening skills, empathy, compassion, excellent communication, and interpersonal skills, with a good understanding of psychology and professional ethics concepts.</p>
+                    </div><!-- end messagebox -->
+                </div><!-- end col -->
+				<div class="col-lg-12">
+                    <div class="customwidget text-center">
+                        <p>Ibtisam has always had the desire to serve and help others in numerous ways and as a volunteer for the Refugee Women’s Network Organization whilst living in the US, she counseled and supported, physically and mentally abused refugee women. Shortly after arriving back to Oman, Ibtisam volunteered at the Al Hayat Association counseling drug addicts and recovering addicts and still maintains contact with some of the recovering/recovered addicts.</p>
+                        <p>Ibtisam has a Master of Arts in Organizational Management (US), Master of Science in Industrial Organizational Psychology (US), and is a certified Master Practitioner in Cognitive Behavioral Therapy (UK).</p>
+                        <!-- end list -->
+                    <!-- <a href="#" class="hover-btn-new"><span>Hosting Packages</span></a> -->
+                    </div>
+                </div>
+            </div>
+
+        </div><!-- end container -->
+    </div><!-- end section -->
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-xs-12">
+                    <div class="widget clearfix">
+                        <div class="widget-title">
+                            <h3>About US</h3>
+                        </div>
+                        <p> Our therapists have a minimum of a master's degrees and are licensed practitioners by the Ministry of Health, Oman.</p>
+                        <p>Co-Founders:</p>
+                        <p>Dr Alya Sultan, CPsychol, DClinPsych, Chartered Clinical Psychologist</p>
+                    </div><!-- end clearfix -->
+                </div><!-- end col -->
+
+				<div class="col-lg-4 col-md-4 col-xs-12">
+                    <div class="widget clearfix">
+                        <div class="widget-title">
+                            <h3>Information Link</h3>
+                        </div>
+                        <ul class="footer-links">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="features.html">Services</a></li>
+                            <li><a href="EventsCalendar.html">Events Calendar</a></li>
+							<li><a href="about.html">About Us</a></li>
+							<li><a href="pricing.html">Pricing</a></li>
+							<li><a href="contact.html">Contact Us</a></li>
+                        </ul><!-- end links -->
+                    </div><!-- end clearfix -->
+                </div><!-- end col -->
+				
+                <div class="col-lg-4 col-md-4 col-xs-12">
+                    <div class="widget clearfix">
+                        <div class="widget-title">
+                            <h3>Contact Details</h3>
+                        </div>
+
+                        <ul class="footer-links">
+                            <li><a href="mailto:#">alya.r.sultan@gmail.com</a></li>
+                            <li><a href="index.html">www.eunoia.com</a></li>
+                            <li>PO Box 16122 Oman Street .......... Muscat</li>
+                            <li>Phone Number</li>
+                        </ul><!-- end links -->
+                    </div><!-- end clearfix -->
+                </div><!-- end col -->
+				
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </footer><!-- end footer -->
+
+    <div class="copyrights">
+        <div class="container">
+            <div class="footer-distributed">
+                <div class="footer-left">                   
+                    <p class="footer-company-name">All Rights Reserved. &copy; 2021 <a href="#">Eunoia</a> Design By : <a href="#">Creative Group</a></p>
+                </div>
+
+                <div class="footer-right">
+                    <ul class="footer-links-soi">
+						<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+						<li><a href="#"><i class="fa fa-github"></i></a></li>
+						<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+						<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+						<li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+					</ul><!-- end links -->
+                </div>
+            </div>
+        </div><!-- end container -->
+    </div><!-- end copyrights -->
+
+    <!-- <a href="#" id="scroll-to-top" class="dmtop global-radius"><i class="fa fa-angle-up"></i></a> -->
+
+    <!-- ALL JS FILES -->
+    <script src="all.js"></script>
+    <!-- ALL PLUGINS -->
+    <script src="custom.js"></script>
+
+</body>
+</html>

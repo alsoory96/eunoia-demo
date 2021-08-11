@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <!-- Basic -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">   
+   
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+     <!-- Site Metas -->
+    <title>What is the procedure?</title>
+    <link rel="shortcut icon" type="image" href="shortcut-logo.png">  
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Site Icons -->
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <!-- Site CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- ALL VERSION CSS -->
+    <link rel="stylesheet" href="versions.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="responsive.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="custom.css">
+
+    <!-- Modernizer for Portfolio -->
+    <script src="modernizer.js"></script>
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<body class="host_version"> 
+
+	<!-- Modal -->
+	<div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+          <div class="modal-content">
+              <div class="modal-header tit-up">
+                  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                  <h4 class="modal-title">Psychologist Login</h4>
+              </div>
+              <div class="modal-body customer-box">
+                  <!-- Nav tabs -->
+                  <ul class="nav nav-tabs">
+                      <li><a class="active" href="#Login" data-toggle="tab">Login</a></li>
+                      <!-- <li><a href="#Registration" data-toggle="tab">Register</a></li> -->
+                  </ul>
+                  <!-- Tab panes -->
+                  <div class="tab-content">
+                      <div class="tab-pane active" id="Login">
+                          <form role="form" class="form-horizontal">
+                              <div class="form-group">
+                                  <div class="col-sm-12">
+                                      <input class="form-control" id="email1" placeholder="Your Name" type="text">
+                                  </div>
+                              </div>
+                              <div class="form-group">
+                                  <div class="col-sm-12">
+                                      <input class="form-control" id="exampleInputPassword1" placeholder="Your Password" type="password">
+                                  </div>
+                              </div>
+                              <div class="row">
+                                  <div class="col-sm-10">
+                                      <button type="submit" class="btn btn-light btn-radius btn-brd grd1">
+                                          Submit
+                                      </button>
+                                      <a class="for-pwd" href="#">Forgot your password? Contact the Manager.</a>
+                                  </div>
+                              </div>
+                          </form>
+                      </div>
+                      <div class="tab-pane" id="Registration">
+                          <form role="form" class="form-horizontal">
+                              <div class="form-group">
+                                  <div class="col-sm-12">
+                                      <input class="form-control" placeholder="Your Name" type="text">
+                                  </div>
+                              </div>
+                              <div class="form-group">
+                                  <div class="col-sm-12">
+                                      <input class="form-control" id="email" placeholder="Your Email" type="email">
+                                  </div>
+                              </div>
+                              <div class="form-group">
+                                  <div class="col-sm-12">
+                                      <input class="form-control" id="mobile" placeholder="Mobile Number" type="email">
+                                  </div>
+                              </div>
+                              <div class="form-group">
+                                  <div class="col-sm-12">
+                                      <input class="form-control" id="password" placeholder="Your Password" type="password">
+                                  </div>
+                              </div>
+                              <div class="row">							
+                                  <div class="col-sm-10">
+                                      <button type="button" class="btn btn-light btn-radius btn-brd grd1">
+                                          Save &amp; Continue
+                                      </button>
+                                      <button type="button" class="btn btn-light btn-radius btn-brd grd1">
+                                          Cancel</button>
+                                  </div>
+                              </div>
+                          </form>
+                      </div>
+                  </div>
+              </div>
+          </div>
+        </div>
+      </div>
+  
+  
+      <!-- LOADER -->
+      <div id="preloader">
+          <div class="loader-container">
+              <div class="progress-br float shadow">
+                  <div class="progress__item"></div>
+              </div>
+          </div>
+      </div>
+      <!-- END LOADER -->	
+  
+	<!-- Start header -->
+	<header class="top-navbar">
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="index.html">
+					<img src="logo.png" alt="" />
+				</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbars-host" aria-controls="navbars-rs-food" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbars-host">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+						<li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+						<li class="nav-item"><a class="nav-link" href="features.html">Services </a></li>
+						<li class="nav-item"><a class="nav-link" href="pricing.html">Pricing</a></li>
+						<li class="nav-item dropdown active">
+							<a class="nav-link dropdown-toggle" href="#" id="dropdown-a" data-toggle="dropdown">More</a>
+							<div class="dropdown-menu" aria-labelledby="dropdown-a">
+								<a class="dropdown-item" href="WhatIsTheProcedures.html">What is the procedure?</a>
+								<a class="dropdown-item" href="EventsCalendar.html">Events Calender</a>
+							</div>
+						</li>
+						<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+					</ul>
+					<ul class="nav navbar-nav navbar-right">
+                        <li><a class="hover-btn-new log" href="#" data-toggle="modal" data-target="#login"><span>Psychologist Login</span></a></li>
+                    </ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<!-- End header -->
+	
+	<div class="all-title-box">
+		<div class="container text-center">
+			<h1>What is the procedure?<span class="m_1"></span></h1>
+		</div>
+	</div>
+	
+    <div id="overviews" class="section lb">
+        <div class="container">
+            <div class="section-title row text-center">
+                <div class="col-md-8 offset-md-2">
+                    <h3>What is the procedure?</h3>
+                    <p class="lead">Upon contacting Eunoia Clinic, our receptionist will set up an appointment for you with a therapist to whom you have been referred or one that best matches your areas of concerns for treatment. <br><br> At your first appointment, your therapist will discuss confidentiality of treatment information.  Your therapist will also fully discuss your areas of concerns, the services they offer, and begin to set up a detailed plan to meet your treatment goals.  A referral to psychiatry for a medication evaluation may also be made at this time, if necessary.</p>
+                </div>
+            </div><!-- end title -->
+        </div><!-- end container -->
+    </div><!-- end section -->
+   </div><!-- end row -->
+
+    <div class="customwidget text-center">
+                    <h1>Confidentiality</h1>
+                    <p>In the usual course of events, you have the right to keep your therapy content here completely private.<br> This means that, without your written permission, no information about your contact with Eunoia<br> is available to anyone outside of the clinic, including parents <br>(if you are over 18), family members, friends, or outside agencies.</p>
+                    
+                    <h1>Exceptions to Confidentiality</h1>
+                    <p>With the exception of specific legal circumstances described below, you have the right to the confidentiality<br> of your therapy and therapy records unless you provide written consent for disclosure.<br> The following are legal exceptions to your right to confidentiality that we will discuss should the need arise:</p>
+                    <strong><p>If you pose a threat of harm to yourself, to another person,<br> we will take whatever steps are required or permitted by law, <br>to help prevent the potential harm from happening.<br> <br> This may include contacting your family and/or other medical professionals;</p></strong>
+                    <strong><p>If you report information indicating that a child, disabled, or elderly person is suffering abuse or neglect;</p></strong>
+                    <strong><p>A court order, issued by a judge, could require us to release information contained in your records, or could require a therapist to testify.</p></strong>
+                    <!-- end list -->
+                   <!-- <a href="#" class="hover-btn-new"><span>Hosting Packages</span></a> -->
+                </div>
+
+    <div class="col-lg-12">
+        <div class="customwidget text-center">
+            <h1>INFORMED CONSENT:</h1>
+            <p>Upon registration, you will be asked to sign an informed consent. It is an agreement between client and clinician<br> that will grant authorization to provide evaluation and treatment services for your care.<br>It indicates you have read and understand policy surrounding confidentiality and its limits and clarifies your<br> commitment to participate in treatment planning to the best of your ability.<br> Finally, informed consent will indicate that you understand that therapy may bring up<br> difficult thoughts or feelings and to recognize that receiving therapy is not a guaranteed cure.</p>
+            
+            <!-- end list -->
+           <!-- <a href="#" class="hover-btn-new"><span>Hosting Packages</span></a> -->
+        </div>
+    </div>
+
+    <div class="col-lg-12">
+        <div class="customwidget text-center">
+            <h1>What is expected from a client?</h1>
+            <p>Therapy may not be effective for everyone,<br> but you can take steps to get the most out of your therapy and help make it a success.</p>
+            <p>Approach therapy as a partnership. <br>Therapy is most effective when you're an active participant and share in decision-making.</p>
+            <p>Be open and honest. Success with therapy depends on your willingness to share your thoughts,<br> feelings and experiences, and on being open to new insights and ways of doing things.<br> Let your therapist know about your reservations especially if it’s related to difficulties in expressing emotions<br> that are challenging to you. Try to attend all sessions and give some thought to what you want to discuss.</p>
+            <p>Don't expect instant results. Working on emotional issues can be painful and often requires hard work.<br> It's not uncommon to feel worse during the initial part of therapy as you begin to confront past and current<br> conflicts. You may need several sessions before you begin to see improvement.</p>
+            <p>If you don't feel that you're benefiting from therapy after several sessions, talk to your therapist about it.<br> You and your therapist may decide to make some changes or try a different approach.</p>
+            
+            <!-- end list -->
+           <!-- <a href="#" class="hover-btn-new"><span>Hosting Packages</span></a> -->
+        </div>
+    </div>
+
+   <hr class="hr3">
+   <footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-xs-12">
+                <div class="widget clearfix">
+                    <div class="widget-title">
+                        <h3>About US</h3>
+                    </div>
+                    <p> Our therapists have a minimum of a master's degrees and are licensed practitioners by the Ministry of Health, Oman.</p>
+                    <p>Co-Founders:</p>
+                    <p>Dr Alya Sultan, CPsychol, DClinPsych, Chartered Clinical Psychologist</p>
+                </div><!-- end clearfix -->
+            </div><!-- end col -->
+
+            <div class="col-lg-4 col-md-4 col-xs-12">
+                <div class="widget clearfix">
+                    <div class="widget-title">
+                        <h3>Information Link</h3>
+                    </div>
+                    <ul class="footer-links">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Events Calendar</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Media & Articles</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul><!-- end links -->
+                </div><!-- end clearfix -->
+            </div><!-- end col -->
+            
+            <div class="col-lg-4 col-md-4 col-xs-12">
+                <div class="widget clearfix">
+                    <div class="widget-title">
+                        <h3>Contact Details</h3>
+                    </div>
+
+                    <ul class="footer-links">
+                        <li><a href="mailto:#">alya.r.sultan@gmail.com</a></li>
+                        <li><a href="#">www.eunoia.com</a></li>
+                        <li>PO Box 16122 Oman Street .......... Muscat</li>
+                        <li>Phone Number</li>
+                    </ul><!-- end links -->
+                </div><!-- end clearfix -->
+            </div><!-- end col -->
+            
+        </div><!-- end row -->
+    </div><!-- end container -->
+</footer><!-- end footer -->
+
+<div class="copyrights">
+    <div class="container">
+        <div class="footer-distributed">
+            <div class="footer-left">                   
+                <p class="footer-company-name">All Rights Reserved. &copy; 2021 <a href="#">Eunoia</a> Design By : <a href="#">Creative Group</a></p>
+            </div>
+
+            <div class="footer-right">
+                <ul class="footer-links-soi">
+                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa fa-github"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                    <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                </ul><!-- end links -->
+            </div>
+        </div>
+    </div><!-- end container -->
+</div><!-- end copyrights -->
+
+
+    <!-- ALL JS FILES -->
+    <script src="all.js"></script>
+    <!-- ALL PLUGINS -->
+    <script src="custom.js"></script>
+
+</body>
+</html>

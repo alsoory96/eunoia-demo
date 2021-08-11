@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <!-- Basic -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">   
+   
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+     <!-- Site Metas -->
+    <title>Services</title>
+    <link rel="shortcut icon" type="image" href="shortcut-logo.png">  
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Site Icons -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <!-- Site CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- ALL VERSION CSS -->
+    <link rel="stylesheet" href="versions.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="responsive.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="custom.css">
+
+    <!-- Modernizer for Portfolio -->
+    <script src="modernizer.js"></script>
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<body class="host_version"> 
+
+	<!-- Modal -->
+	<div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+          <div class="modal-content">
+              <div class="modal-header tit-up">
+                  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                  <h4 class="modal-title">Psychologist Login</h4>
+              </div>
+              <div class="modal-body customer-box">
+                  <!-- Nav tabs -->
+                  <ul class="nav nav-tabs">
+                      <li><a class="active" href="#Login" data-toggle="tab">Login</a></li>
+                      <!-- <li><a href="#Registration" data-toggle="tab">Register</a></li> -->
+                  </ul>
+                  <!-- Tab panes -->
+                  <div class="tab-content">
+                      <div class="tab-pane active" id="Login">
+                          <form role="form" class="form-horizontal">
+                              <div class="form-group">
+                                  <div class="col-sm-12">
+                                      <input class="form-control" id="email1" placeholder="Your Name" type="text">
+                                  </div>
+                              </div>
+                              <div class="form-group">
+                                  <div class="col-sm-12">
+                                      <input class="form-control" id="exampleInputPassword1" placeholder="Your Password" type="password">
+                                  </div>
+                              </div>
+                              <div class="row">
+                                  <div class="col-sm-10">
+                                      <button type="submit" class="btn btn-light btn-radius btn-brd grd1">
+                                          Submit
+                                      </button>
+                                      <a class="for-pwd" href="#">Forgot your password? Contact the Manager.</a>
+                                  </div>
+                              </div>
+                          </form>
+                      </div>
+                      <div class="tab-pane" id="Registration">
+                          <form role="form" class="form-horizontal">
+                              <div class="form-group">
+                                  <div class="col-sm-12">
+                                      <input class="form-control" placeholder="Your Name" type="text">
+                                  </div>
+                              </div>
+                              <div class="form-group">
+                                  <div class="col-sm-12">
+                                      <input class="form-control" id="email" placeholder="Your Email" type="email">
+                                  </div>
+                              </div>
+                              <div class="form-group">
+                                  <div class="col-sm-12">
+                                      <input class="form-control" id="mobile" placeholder="Mobile Number" type="email">
+                                  </div>
+                              </div>
+                              <div class="form-group">
+                                  <div class="col-sm-12">
+                                      <input class="form-control" id="password" placeholder="Your Password" type="password">
+                                  </div>
+                              </div>
+                              <div class="row">							
+                                  <div class="col-sm-10">
+                                      <button type="button" class="btn btn-light btn-radius btn-brd grd1">
+                                          Save &amp; Continue
+                                      </button>
+                                      <button type="button" class="btn btn-light btn-radius btn-brd grd1">
+                                          Cancel</button>
+                                  </div>
+                              </div>
+                          </form>
+                      </div>
+                  </div>
+              </div>
+          </div>
+        </div>
+      </div>
+  
+  
+      <!-- LOADER -->
+      <div id="preloader">
+          <div class="loader-container">
+              <div class="progress-br float shadow">
+                  <div class="progress__item"></div>
+              </div>
+          </div>
+      </div>
+      <!-- END LOADER -->	
+  
+	<!-- Start header -->
+	<header class="top-navbar">
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="index.html">
+					<img src="logo.png" alt="" />
+				</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbars-host" aria-controls="navbars-rs-food" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbars-host">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+						<li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+						<li class="nav-item active"><a class="nav-link" href="features.html">Services </a></li>
+						<li class="nav-item"><a class="nav-link" href="pricing.html">Pricing</a></li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="dropdown-a" data-toggle="dropdown">More</a>
+							<div class="dropdown-menu" aria-labelledby="dropdown-a">
+								<a class="dropdown-item" href="WhatIsTheProcedures.html">What is the procedure?</a>
+								<a class="dropdown-item" href="EventsCalendar.html">Events Calender</a>
+							</div>
+						</li>
+						<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+					</ul>
+					<ul class="nav navbar-nav navbar-right">
+                        <li><a class="hover-btn-new log" href="#" data-toggle="modal" data-target="#login"><span>Psychologist Login</span></a></li>
+                    </ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<!-- End header -->
+	
+	<div class="all-title-box">
+		<div class="container text-center">
+			<h1>Services<span class="m_1">Here you will know more about our services</span></h1>
+		</div>
+	</div>
+	
+    <div id="overviews" class="section lb">
+        <div class="container">
+            <div class="section-title row text-center">
+                <div class="col-md-8 offset-md-2">
+                    <h3>Services</h3>
+                    <p class="lead">We are providing for you the best services to make you happy and make us proud.</p>
+                </div>
+            </div><!-- end title -->
+        </div><!-- end container -->
+    </div><!-- end section -->
+            <div class="col-lg-12">
+                <div class="customwidget text-center">
+                    <h1>a. Adult Psychotherapy</h1>
+                    <p>At Eunoia, we aim to provide individually tailored, evidence-based psychological assessment and treatment for mental health difficulties in a safe and supportive atmosphere. Our approach seeks to alleviate the problems you are experiencing with the hope of creating a greater sense of wellbeing.</p>
+                    <p>Psychotherapy, sometimes referred to as talk therapy, is a way to help people with mental illnesses and emotional difficulties manage and cope with their current distress. Psychotherapy can help a person function better and can increase well-being and healing.</p>
+                    <p>Different types of psychotherapies exist and some types may work better with certain problems or issues. Psychotherapy may be used in combination with medication or other therapies. Therapy sessions are usually delivered in one-hour sessions and, depending on the complexity of the presenting issue, will include a comprehensive assessment using questionnaires and other tools.</p>
+                    <p>Types: <br>
+                        Our therapists are trained to provide the following therapies:
+                        </p>
+                    <!-- end list -->
+                   <!-- <a href="#" class="hover-btn-new"><span>Hosting Packages</span></a> -->
+                </div>
+            </div>
+            <div class="row"> 
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="icon-wrapper wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">
+                        <h3>Cognitive behavioral therapy (CBT)</h3>
+                        <p>Cognitive behavioral therapy (CBT) is a common type of talk therapy. You will work with a mental health practitioner in a structured way, attending a limited number of sessions. CBT helps you become aware of unhelpful or negative thinking patterns so you can view challenging situations more clearly and respond to them in a more effective way. 
+						
+                        </p>
+                        <br>
+                    </div><!-- end icon-wrapper -->
+                </div><!-- end col -->
+
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="icon-wrapper wow fadeIn" data-wow-duration="1s" data-wow-delay="0.6s">
+                        <h3>Mindfulness-based cognitive therapy (MBCT)</h3>
+                        <p>Mindfulness-based cognitive therapy (MBCT) is a type of psychotherapy that involves a combination of cognitive therapy and mindfulness. It builds upon the principles of cognitive therapy by using techniques such as mindfulness meditation to teach people to consciously pay attention to their thoughts and feelings without placing any judgments upon them.
+						</p>
+                    </div><!-- end icon-wrapper -->
+                </div><!-- end col -->
+
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="icon-wrapper wow fadeIn" data-wow-duration="1s" data-wow-delay="0.4s">
+                        <h3>Acceptance and commitment therapy (ACT)</h3>
+                        <p>Acceptance and commitment therapy (ACT)teaches several skills to help individuals live and behave in ways consistent with personal values while developing psychological flexibility. Using acceptance, commitment, mindfulness skills and behaviour-change strategies, ACT’s focus is to help clients accept the realities of life and to accept thoughts for what they are. 
+                        </p>
+                    </div><!-- end icon-wrapper -->
+                </div><!-- end col -->
+            </div><!-- end row -->
+
+            <hr class="hr3"> 
+
+            <div class="row"> 
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="icon-wrapper wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">
+                        <h3>Dialectical Behavior Therapy (DBT)</h3><br>
+                        <p>Dialectical means "the existence of opposites." In DBT, people are taught two seemingly opposite strategies: acceptance (i.e., that their experiences and behaviours are valid), and change (i.e., that they have to make positive changes to manage emotions and move forward). We are currently only offering individual DBT sessions.
+						</p><br><br>
+                    </div><!-- end icon-wrapper -->
+                </div><!-- end col -->
+
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="icon-wrapper wow fadeIn" data-wow-duration="1s" data-wow-delay="0.6s">
+                        <h3>Schema Therapy</h3>
+                        <p>Schema therapy helps individuals identify the thought and behavior patterns underlying and perpetuating mental health conditions by  exploring and addressing unmet emotional needs.
+						</p>
+                        <h3>Existential Therapy</h3>
+                        <p>Existential therapy focuses on free will, self-determination, and the search for meaning—often centering on the client rather than on the symptom. The approach emphasizes your capacity to make rational choices and to develop to your maximum potential.
+						</p>
+                    </div><!-- end icon-wrapper -->
+                </div><!-- end col -->
+
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="icon-wrapper wow fadeIn" data-wow-duration="1s" data-wow-delay="0.4s">
+                        <h3>Eye Movement Desensitization and Reprocessing (EMDR)</h3><br>
+                        <p>EMDR is a psychotherapy that enables people to heal from the symptoms and emotional distress that are the result of disturbing life experiences.  EMDR utilizes sensory input such as eye movements to help people recover from trauma and emotional distress.
+						</p>
+                        <br><br><br>
+                    </div><!-- end icon-wrapper -->
+                </div><!-- end col -->
+
+                
+            </div><!-- end row -->
+            <div class="col-lg-12">
+                <div class="customwidget text-center">
+                    <p>Adult Psychotherapy Services are available both in person and online, in Arabic and English. <br> Click here to schedule an appointment.</p>
+                    <p>You don't have to be diagnosed with a mental health condition to attend therapy sessions. <br> Therapy  can be an effective tool to help anyone learn how to better manage stressful life situations.</p>
+                    <!-- end list -->
+                   <!-- <a href="#" class="hover-btn-new"><span>Hosting Packages</span></a> -->
+                </div>
+            </div>
+            <div class="col-lg-12">
+                <div class="customwidget text-center">
+                    <h1>b. Child, Adolescent & Family Services</h1>
+                    <p>Children and adolescents go through various developmental stages characterized by a wide variety of behaviors.  Since their behavior is constantly changing and evolving, it is often difficult to know when psychological intervention is indicated.  If behaviors become severe or impact your child’s functioning at home or in school, an evaluation can help determine what type of intervention may be helpful.</p>
+                    <h2>Signs that your child may need an intervention:</h2>
+                   <strong> <p>1- significant changes in eating or sleeping patterns. <br>
+                       2- Irritability, sadness, or moodiness. <br>
+                       3- Impaired focus or difficulty concentrating.<br>
+                       4- Conflict with peers or family.<br>
+                       5- Physical complaints that do not respond to medical treatment.<br>
+                       6- Oppositional behavior.<br>
+                       7- Excessive and sustained worry and tension.<br>
+                       8- Difficulties coping with stress, divorce, transitions, trauma, illness, or grief & loss.<br>
+                       9- Learning difficulties.
+                        </p> </strong>
+                        <h2>Types:</h2>
+                        <p>Our therapists are trained to provide the following therapies:</p>
+                    <!-- end list -->
+                   <!-- <a href="#" class="hover-btn-new"><span>Hosting Packages</span></a> -->
+                </div>
+            </div>
+            <div class="row"> 
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="icon-wrapper wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">
+                        <h3>CBT</h3>
+                        <p>Cognitive behavioral therapy (CBT) is a common type of talk therapy. You will work with a mental health practitioner in a structured way, attending a limited number of sessions. CBT helps you become aware of unhelpful or negative thinking patterns so you can view challenging situations more clearly and respond to them in a more effective way.                             
+						</p>
+                        <br>
+                    </div><!-- end icon-wrapper -->
+                </div><!-- end col -->
+
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="icon-wrapper wow fadeIn" data-wow-duration="1s" data-wow-delay="0.6s">
+                        <h3>TF-CBT</h3>
+                        <p>Trauma-focused cognitive behavioral therapy (TF-CBT) is an evidence-based treatment approach shown to help children, adolescents, and their parents 
+                            overcome trauma-related difficulties. TF-CBT helps children address distorted or upsetting beliefs and attributions and learn skills to help them cope with ordinary life stressors. It also helps parents who were not abusive to cope effectively with their own emotional distress and develop skills that support their children.                            
+						</p>
+                    </div><!-- end icon-wrapper -->
+                </div><!-- end col -->
+
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="icon-wrapper wow fadeIn" data-wow-duration="1s" data-wow-delay="0.4s">
+                        <h3>MBCT</h3>
+                        <p>Mindfulness-based cognitive therapy (MBCT) is a type of psychotherapy that involves a combination of cognitive therapy and mindfulness. It builds upon the principles of cognitive therapy by using techniques such as mindfulness meditation to teach people to consciously pay attention to their thoughts and feelings without placing any judgments upon them.
+                        </p>
+                        <br>
+                    </div><!-- end icon-wrapper -->
+                </div><!-- end col -->
+            </div><!-- end row -->
+   </div><!-- end row -->
+
+    <div class="customwidget text-center">
+                    <h1>ACT</h1>
+                    <p>Acceptance and commitment therapy (ACT) teaches several skills <br> to help individuals live and behave in ways consistent with personal values<br> while developing psychological flexibility.<br> Using acceptance, commitment, mindfulness skills and behaviour-change strategies, <br>ACT’s focus is to help clients accept the realities of life <br>and to accept thoughts for what they are – just thoughts.</p>
+                    
+                    <h1>Parenting Programs</h1>
+                    <p>The primary goal of parenting programs is to provide support and information <br> in ways that help parents become more capable and competent. <br> <strong>Programs typically focus on five main goals:</strong> <br> promoting safe and engaging environments,<br> creating positive learning environments,<br> using effective discipline,<br> creating clear and reasonable expectations,<br> and self-care for parents.<br>  <strong>Members of our team are providers of the following programs:</strong>
+                        </p>
+                        <h2>Triple P International <br>
+                            Incredible Years
+                            </h2>
+                        <p>Child, Adolescent, and Family Services are available in Arabic and English and both in person or online. <br> Click here to schedule an appointment.</p>
+                    <!-- end list -->
+                   <!-- <a href="#" class="hover-btn-new"><span>Hosting Packages</span></a> -->
+                </div>
+    </div>
+
+    <div class="col-lg-12">
+        <div class="customwidget text-center">
+            <h1>c. Skills Training Workshops/Webinars</h1>
+            <p> <strong>1. Adult Skills Training Programs</strong> <br>
+                Skills training programs help participants take control of their mental health<br> by teaching them effective strategies, techniques <br>and coping mechanisms to manage their stress and general mental wellbeing.<br>  During the programs, participants will learn and apply skills in their daily lives<br> and will have the option to share successes and challenges with the instructor and fellow participants.</p>
+            <p> <strong>2. Webinars</strong> <br>
+                Webinars present employees with practical information and realistic strategies on ways <br>to improve their health, safety and wellbeing. </p>
+            <p><strong>3. Parenting Programs</strong></p>
+            <p><strong>4. Children Social Skills Training</strong></p>
+            <p><strong>5. Summer Programs for Children and Adolescents</strong></p>
+            
+            <!-- end list -->
+           <!-- <a href="#" class="hover-btn-new"><span>Hosting Packages</span></a> -->
+        </div>
+    </div>
+
+    <div class="col-lg-12">
+        <div class="customwidget text-center">
+            <h1>d. Assessment & Reports</h1>
+            <p> Eunoia clinic provides comprehensive psychological testing for both children and adults.<br>  Testing involves an initial one-hour consultation, during which time a clinical interview is conducted<br> to better determine which assessments are most appropriate to address issues of concern.<br> At the conclusion of the consultation, the examiner can estimate how many hours will be needed <br>for formal testing, scoring of test measures, and writing the report. <br>Fees for assessments can vary,<br> depending on the purpose of the assessment and the presenting problem,<br> and are determined on a case-by-case basis.</p>
+            <p>The types of available assessments  include:<br></p>
+            <p><strong>Psychological Testing</strong></p>
+            <p>Psychological testing focuses on cognitive, emotional, and psychological factors that may impact a person’s life.<br> Psychological testing is conducted to look at emotional disorders such as depression, bipolar disorder, anxiety,<br> stress, suicide potential, schizophrenia, and other mental health disorders. <br>Testing is often done to formalize diagnoses as well as to obtain a comprehensive picture <br>of an individual in order to assist in devising a treatment plan.</p>
+            <p><strong>Psychoeducational Testing/strong></p></strong>
+            <p>Psychoeducational testing is often performed to determine whether a child or an adult has a learning disability<br> or an attention problem (e.g., ADHD) that is interfering with performance at school or the workplace.<br> Psychoeducational testing usually involves administration of a test of intellectual ability and an achievement test.<br> In the case of children testing often includes questionnaires to be completed by teachers or family members.<br> This testing often includes administration of an IQ test <br>which provides a comprehensive assessment of cognitive strengths and weaknesses.</p>
+            <p><strong>Neuropsychological Testing</p></strong>
+            <p>Neuropsychological evaluations are typically conducted for individuals having difficulty in learning, attention,<br> behavior, socialization, or emotional control, as well as for those suffering from developmental problems<br> that affect brain function or from an injury to the brain. Specifically, this testing provides a better understanding<br> of a person’s functioning in areas such as memory, attention, perception, coordination, language, and personality.</p>
+            
+            <!-- end list -->
+           <!-- <a href="#" class="hover-btn-new"><span>Hosting Packages</span></a> -->
+        </div>
+    </div>
+
+    <div class="col-lg-12">
+        <div class="customwidget text-center">
+            <h1>e. Psychiatry</h1>
+            <p><strong>coming soon! contact us for details</strong></p>
+            <h1>d. Corporate Wellness</h1>
+            <p>Our corporate wellness programs help identify early signs & symptoms of common mental health conditions.<br> The programs aim to reduce risk and stigma associated with poor mental health. </p>
+              <p><strong>The programs focus on:</strong> <br>
+                increasing self-efficacy and preparedness of employees. <br>
+                Increasing productivity. <br>
+                reducing absenteeism & staff turnover. <br>
+                Promoting a mentally safe and healthy workplace </p>
+                <h1>g. Support Groups</h1>
+            <p><strong>coming soon! contact us for details</strong></p>
+                
+            <!-- end list -->
+           <!-- <a href="#" class="hover-btn-new"><span>Hosting Packages</span></a> -->
+        </div>
+    </div>
+
+   <hr class="hr3">
+
+   <footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-xs-12">
+                <div class="widget clearfix">
+                    <div class="widget-title">
+                        <h3>About US</h3>
+                    </div>
+                    <p> Our therapists have a minimum of a master's degrees and are licensed practitioners by the Ministry of Health, Oman.</p>
+                    <p>Co-Founders:</p>
+                    <p>Dr Alya Sultan, CPsychol, DClinPsych, Chartered Clinical Psychologist</p>
+                </div><!-- end clearfix -->
+            </div><!-- end col -->
+
+            <div class="col-lg-4 col-md-4 col-xs-12">
+                <div class="widget clearfix">
+                    <div class="widget-title">
+                        <h3>Information Link</h3>
+                    </div>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="features.html">Services</a></li>
+                        <li><a href="EventsCalendar.html">Events Calendar</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="pricing.html">Pricing</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul><!-- end links -->
+                </div><!-- end clearfix -->
+            </div><!-- end col -->
+            
+            <div class="col-lg-4 col-md-4 col-xs-12">
+                <div class="widget clearfix">
+                    <div class="widget-title">
+                        <h3>Contact Details</h3>
+                    </div>
+
+                    <ul class="footer-links">
+                        <li><a href="mailto:#">alya.r.sultan@gmail.com</a></li>
+                        <li><a href="index.html">www.eunoia.com</a></li>
+                        <li>PO Box 16122 Oman Street .......... Muscat</li>
+                        <li>Phone Number</li>
+                    </ul><!-- end links -->
+                </div><!-- end clearfix -->
+            </div><!-- end col -->
+            
+        </div><!-- end row -->
+    </div><!-- end container -->
+</footer><!-- end footer -->
+
+<div class="copyrights">
+    <div class="container">
+        <div class="footer-distributed">
+            <div class="footer-left">                   
+                <p class="footer-company-name">All Rights Reserved. &copy; 2021 <a href="#">Eunoia</a> Design By : <a href="#">Creative Group</a></p>
+            </div>
+
+            <div class="footer-right">
+                <ul class="footer-links-soi">
+                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa fa-github"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                    <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                </ul><!-- end links -->
+            </div>
+        </div>
+    </div><!-- end container -->
+</div><!-- end copyrights -->
+
+
+    <!-- ALL JS FILES -->
+    <script src="all.js"></script>
+    <!-- ALL PLUGINS -->
+    <script src="custom.js"></script>
+
+</body>
+</html>
